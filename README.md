@@ -14,6 +14,18 @@ For Joh
 
 Requirement: <https://knowledge.autodesk.com/support/revit/learn-explore/caas/sfdcarticles/sfdcarticles/System-requirements-for-Autodesk-Revit-2022-products.html>
 
+BIM Workstation (Reference Model)
+
+| Item         |                       Specs                       |
+|--------------|:-------------------------------------------------:|
+| CPU          |              Intel® CoreTM i9 9900k               |
+| Memory       |            32GB RAM DDR4 2666+ or more            |
+| Display Card |          NVIDIA Quadro RTX4000 or faster          |
+| Hard Drive   |      500+GB SSD & Min. 2TB 7200+RPM storage       |
+| Network      | Gigabit Ethernet Adapter with internet connection |
+
+
+---
 
 **By Budgetworks**\
 Specialize on Micro Workflow management
