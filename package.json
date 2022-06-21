@@ -1,0 +1,12 @@
+{
+  "name": "revit_system_john_2022",
+  "version": "1.0.0",
+  "description": "For Joh",
+  "main": "index.js",
+  "scripts": {
+    "dev": "streamlit run main.py"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
