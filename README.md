@@ -4,7 +4,7 @@ For Joh
 
 #### Constraint
 
-- Budget with 40K HKD
+- Budget with $40K HKD
 - Performance with vaild Benchmark
 - Latest Generation Intel CPU Support with Highest Clock Rate for Revit 2022 & Beyond
 - 64g of High Speed Ram for model Creation

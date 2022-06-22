@@ -27,7 +27,7 @@ st.markdown('- Pure Raw Speed')
 st.markdown('#### Winner')
 st.markdown('i9-12900K won 30% for Most Render')
 
-st.markdown('#### Reference i9-12900K ')
+st.markdown('#### Revit Benchmark  i9-12900K ')
 st.markdown('''
 RVT 2022 - Full_Standard set - 2022.06.01 @ 13.48.15 on DESKTOP-SIIA0ON.txt
 RFO Benchmark v3.3 (build 09.05.2022)
@@ -102,7 +102,7 @@ Drive Model: Seagate FireCuda 530 ZP1000GM30023
 '''
             )
 
-st.markdown('#### Reference 2- i9 - 9900k')
+st.markdown('#### Revit Benchmark 2- i9 - 9900k')
 st.markdown('''
 
 RVT 2022 - Full_Standard set - 2021.06.11 @ 07.40.13 on PRLXLT03.txt
