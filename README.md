@@ -6,7 +6,7 @@ For Joh
 
 - Budget with 40K HKD
 - Performance with vaild Benchmark
-- Latest Generation Intel CPU Support with Highest Clock Rate Revit 2022 & Beyond
+- Latest Generation Intel CPU Support with Highest Clock Rate for Revit 2022 & Beyond
 - 64g of High Speed Ram for model Creation
 - Above Average Graphic Card with over 10g ram for the Revit 2022
 - At least 2 TB NVME SSD
