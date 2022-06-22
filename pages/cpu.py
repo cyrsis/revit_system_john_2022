@@ -27,7 +27,7 @@ st.markdown('- Pure Raw Speed')
 st.markdown('#### Winner')
 st.markdown('i9-12900K won 30% for Most Render')
 
-st.markdown('#### Revit Benchmark  i9-12900K ')
+st.markdown('#### Revit Benchmark i9-12900K ')
 st.markdown('''
 RVT 2022 - Full_Standard set - 2022.06.01 @ 13.48.15 on DESKTOP-SIIA0ON.txt
 RFO Benchmark v3.3 (build 09.05.2022)
