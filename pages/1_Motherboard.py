@@ -31,3 +31,6 @@ st.markdown('#### Thermal Technology ')
 st.markdown(
     'An effective cooling solution can prevent the risk of design work being interrupted by an unexpected system crash. GIGABYTE’s advanced thermal solutions provide a perfect balance of aesthetics and performance. A large heat sink design and Direct-Touch Heatpipe II ensure stability during creative sessions.')
 st.markdown('Note: It comes with NVME SSD Heatsink to ensure the SSD dont get too hot')
+
+
+st.image('https://static.gigabyte.com/StaticFile/Image/Global/82afc9d59b1ca5d9d7adad85fc839189/Product/30091/png/1000')
