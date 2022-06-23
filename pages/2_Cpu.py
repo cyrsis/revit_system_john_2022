@@ -13,11 +13,11 @@ st.markdown('')
 df = pd.DataFrame(
     [["i9-9900K", 1284, 12450, 8779, 5651], ["i9-12900K", 1997, 27472, 17595, 6946]],
     columns=["Product", "Cinebench R23", "Cinebench R23 (Multi-Core)", "Geekbench 5, 64bit (Multi-Core)",
-             "Revit 2022.1.1"]
+             "Revit 2019.1.1"]
 )
 
 fig = px.bar(df, x="Product",
-             y=["Cinebench R23", "Cinebench R23 (Multi-Core)", "Geekbench 5, 64bit (Multi-Core)", "Revit 2022.1.1"],
+             y=["Cinebench R23", "Cinebench R23 (Multi-Core)", "Geekbench 5, 64bit (Multi-Core)", "Revit 2019.1.1"],
              barmode='group', height=400)
 # st.dataframe(df) # if need to display dataframe
 st.plotly_chart(fig)
@@ -29,14 +29,14 @@ st.markdown('i9-12900K won 30% for Most Render')
 
 st.markdown('#### Revit Benchmark i9-12900K ')
 st.markdown('''
-RVT 2022 - Full_Standard set - 2022.06.01 @ 13.48.15 on DESKTOP-SIIA0ON.txt
-RFO Benchmark v3.3 (build 09.05.2022)
+RVT 2019 - Full_Standard set - 2019.06.01 @ 13.48.15 on DESKTOP-SIIA0ON.txt
+RFO Benchmark v3.3 (build 09.05.2019)
 RevitForum.org
 
 All times are in seconds, lower is better.
 
 
-Run on Revit 2022.1.1
+Run on Revit 2019.1.1
 
 __________________________________________________ _______________
 Update
@@ -105,14 +105,14 @@ Drive Model: Seagate FireCuda 530 ZP1000GM30023
 st.markdown('#### Revit Benchmark 2- i9 - 9900k')
 st.markdown('''
 
-RVT 2022 - Full_Standard set - 2021.06.11 @ 07.40.13 on PRLXLT03.txt
+RVT 2019 - Full_Standard set - 2021.06.11 @ 07.40.13 on PRLXLT03.txt
 RFO Benchmark v3.3 (build 09.05.2022)
 RevitForum.org
 
 All times are in seconds, lower is better.
 
 
-Run on Revit 2022 FCS
+Run on Revit 2019 FCS
 
 __________________________________________________ _______________
 Update

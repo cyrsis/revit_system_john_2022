@@ -25,7 +25,7 @@ st.markdown('Zotac RTX 3080 TI')
 st.markdown(
     '3080 Series is almost double the speed compare to Quadro RTX 4000')
 
-st.markdown('100% work with Revit 2022')
+st.markdown('100% work with Revit 2019')
 st.markdown('Driver can be Studio (Render) and Gaming')
 
 st.image('https://static.userbenchmark.com/resources/static/gpu/Nvidia-RTX-3080.jpg')
