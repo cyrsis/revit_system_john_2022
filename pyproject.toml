@@ -1,8 +1,14 @@
 [tool.poetry]
 name = "revit_system_john_2022"
 version = "0.1.0"
-description = ""
-authors = ["victor <em3888@gmail.com>"]
+description = "Professional Revit Workstation Specification & Cost Analysis Tool - A comprehensive hardware specification analysis and recommendation system for Autodesk Revit 2022 workstations"
+authors = ["Victor <victor@budgetapp.works>"]
+license = "ISC"
+readme = "README.md"
+homepage = "https://github.com/cyrsis/revit_system_john_2022"
+repository = "https://github.com/cyrsis/revit_system_john_2022"
+documentation = "https://github.com/cyrsis/revit_system_john_2022#readme"
+keywords = ["revit", "autodesk", "bim", "workstation", "hardware-analysis", "performance-benchmarks", "streamlit", "data-visualization"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
@@ -12,7 +18,79 @@ watchdog = "^2.1.9"
 plotly = "^5.8.2"
 
 [tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+pytest-bdd = "^6.0.0"
+pytest-cov = "^3.0.0"
+pytest-asyncio = "^0.18.3"
+pytest-playwright = "^0.3.0"
+playwright = "^1.22.0"
+black = "^22.3.0"
+flake8 = "^4.0.1"
+mypy = "^0.950"
+pytest-watch = "^4.2.0"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.1.2"
+pytest-bdd = "^6.0.0"
+pytest-cov = "^3.0.0"
+pytest-asyncio = "^0.18.3"
+pytest-playwright = "^0.3.0"
+playwright = "^1.22.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py", "*_test.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "-v --strict-markers --tb=short"
+markers = [
+    "unit: Unit tests",
+    "integration: Integration tests",
+    "e2e: End-to-end tests",
+    "bdd: Behavior-driven development tests",
+]
+
+[tool.black]
+line-length = 100
+target-version = ['py38']
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.venv
+  | \.pytest_cache
+  | __pycache__
+  | build
+  | dist
+)/
+'''
+
+[tool.mypy]
+python_version = "3.8"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false
+ignore_missing_imports = true
+
+[tool.coverage.run]
+source = ["."]
+omit = [
+    "*/tests/*",
+    "*/test_*",
+    "*/__pycache__/*",
+    "*/venv/*",
+    "*/.venv/*",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+]

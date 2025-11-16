@@ -1,12 +1,62 @@
 {
   "name": "revit_system_john_2022",
   "version": "1.0.0",
-  "description": "For Joh",
-  "main": "index.js",
+  "description": "Professional Revit Workstation Specification & Cost Analysis Tool - A comprehensive hardware specification analysis and recommendation system for Autodesk Revit 2022 workstations, featuring interactive visualizations, performance benchmarks, and cost analysis.",
+  "main": "main.py",
   "scripts": {
-    "dev": "streamlit run main.py"
+    "dev": "streamlit run main.py",
+    "start": "streamlit run main.py",
+    "test": "pytest",
+    "test:coverage": "pytest --cov=. --cov-report=html --cov-report=term",
+    "test:bdd": "pytest tests/features/",
+    "test:e2e": "pytest tests/e2e/",
+    "test:e2e:headed": "pytest tests/e2e/ --headed",
+    "test:watch": "pytest-watch",
+    "install:playwright": "playwright install",
+    "lint": "flake8 .",
+    "format": "black .",
+    "type-check": "mypy ."
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cyrsis/revit_system_john_2022.git"
+  },
+  "keywords": [
+    "revit",
+    "autodesk",
+    "bim",
+    "workstation",
+    "hardware-analysis",
+    "performance-benchmarks",
+    "streamlit",
+    "data-visualization",
+    "cost-analysis",
+    "system-configuration",
+    "architecture",
+    "construction-technology",
+    "python",
+    "plotly",
+    "pandas"
+  ],
+  "author": {
+    "name": "Victor",
+    "email": "victor@budgetapp.works",
+    "url": "https://budgetapp.works"
+  },
+  "contributors": [
+    {
+      "name": "BudgetWorks",
+      "email": "victor@budgetapp.works",
+      "url": "https://budgetapp.works"
+    }
+  ],
+  "license": "ISC",
+  "engines": {
+    "node": ">=14.0.0",
+    "python": ">=3.8.0"
+  },
+  "bugs": {
+    "url": "https://github.com/cyrsis/revit_system_john_2022/issues"
+  },
+  "homepage": "https://github.com/cyrsis/revit_system_john_2022#readme"
 }
